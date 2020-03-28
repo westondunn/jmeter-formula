@@ -12,23 +12,23 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: jmeter-debian
+  config: /etc/jmeter.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: jmeter-redhat
+  config: /etc/jmeter.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: jmeter-suse
 
 Gentoo: {}
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: jmeter-arch
   service:
     name: service-arch
 
